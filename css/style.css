@@ -1,0 +1,64 @@
+header, section, footer, aside, article, figure, nav {
+	display: block;}
+*{margin: 0;padding: 0px;}
+body {margin:0;font-family: Arial, Helvetica, sans-serif;background-image:url(../img/pg-back.png);text-align:center;}
+h2 {color:#949393;border-bottom:1px solid #282828;font-size:20px;background-image:url(../img/bg-header2.png);}
+.container{	height:1433px;width:960px;background-color:black;margin:0 auto;}
+header{height: 118px;position: relative;}
+.bottoms {width:940px;margin:0 auto;width:960px;height:50px;padding: 1px 0px;
+margin-bottom:15px;background-image:url(../img/navback.png);background-position:0px 1px;}
+nav li {float:left;margin-left:52px;		text-transform:uppercase;font:bold 14px Arial;list-style:none;}
+nav li:first-child{margin-left: 27px;padding: 0px 3px;}
+nav a{color: #7b7979;line-height: 48px;text-decoration: none;}
+nav a:hover{color:#de4c78;}
+.cont{width:940px;height:1158px;margin: 0 auto;}
+aside{width:220px;float:left;margin: 0 0 0 10px;}
+.cart{background-image:url(../img/bg-cart.png);		height: 57px;width: 164px;padding: 14px 18px;}
+.basket {float: left;height: 60px;width: 90px;padding-right: 10px;border-right:1px solid #282828;}
+.basket a {text-decoration:none;color:#1d1e1e;display:inline-block;font: bold 16px Arial;}
+span{font-size:12px; float:right;line-height:30px;}
+.news {width:210px;height:505px;margin-top: 20px;padding-bottom: 20px;}
+.newshead{background-image:url(../img/bg-header.png);background-position: -102px 0;color: #000;height:43px;line-height:42px;text-align: center;}
+.collection a {color:#b9315a;font-size:14px;font-weight:bold;text-decoration:none;}
+.collection li {width:208px;height:153px;background-color:white;border-top:1px solid #4d4d4f;}
+.collection li:first-child{border:none;}
+.featured {width:200px;border: 1px solid #282828;}
+.title{width:190px;height:41px;color:#949393;font-size:20px;line-height:38px;background-image:url(../img/bg-header2.png);padding:0 5px;
+border-bottom:1px solid #282828;}
+.items li {border-bottom:1px solid #282828;}
+.items a {color:#b9315a;font-size: 14px;font-weight:bold;text-decoration:none;}
+article{width:700px;height:388px;float:right;margin-right: 10px;background-image:url(../img/eye-beauty.jpg);background-repeat: no-repeat;}
+.main h1{float:left;color:#ee8b98;font-size: 48px;line-height:48px;padding:20px 25px;}
+.main h2{float:left;font-size: 22px;line-height: 24px;padding: 0 25px;text-transform: uppercase;color:#7f8383;}
+.main a{text-align:left;text-decoration:none;color:#ee8b98;display: block;margin-right: 350px;font-size: 20px;font-weight:bold;height:20px;
+line-height:45px;padding-left: 25px;}
+.advertising{display:inline-block;width:700px;height:437px;margin:10px 10px 10px 0px;border-bottom:1px solid #282828;padding-bottom:10px;}
+#first{padding-right: 0px; margin:auto 0px}
+.adv{width:220px;height:436px;margin-left:16px;float:left;}
+.adv img{width:220px;border:3px solid white;}
+.adv h1{color:#b9315a;font-size:22px;line-height:20px;margin-bottom:10px;padding:0 10px;text-transform: uppercase;float:left;}
+.adv h2{color:#938ce8;font:bold 17px Arial;line-height:35px;text-transform:uppercase;float:right;background:none;border:none;}
+.adv p{color:#f7f7f7;font-size:12px;line-height:18px;margin:0;padding:0 10px 18px;text-align:left;font-family:Arial, Helvetica, sans-serif;}
+.updates{width:458px;float:left;height:282px;border:1px solid #282828;text-align:left;}
+.updates h2 {width:418px;height:41px;line-height: 41px;margin: 0 0 17px;padding: 0 20px;}
+.updates ul{ margin:0;padding:0 20px 17px;}
+.updates img {float:left;margin-right:20px;}
+.updatelinks{display:block;line-height:14px;margin:0 0 12px;}
+.updatelinks h4{color:#b9315a;font-size:14px;margin:0;padding:3px 0px 10px;}
+.update{display:inline-block;margin:0 0 13px;}
+.update p {color:#f7f7f7;font-size:12px;line-height:18px;}
+.connection{float:right;display: inline-block;width:220px;margin:0px 10px;}
+.follow{width:218px;border:1px solid #282828;margin-bottom:23px;height:108px;}
+.follow h2{line-height:41px;padding:0 20px; text-align:center;}
+.follow img{margin:13px 8px;width:31px;height:32px;background-image:url(../img/facebook.png);}
+footer {padding:10px 0;position:relative;clear:both;text-align:center;}
+.signup{width:218px;border:1px solid #282828;height:150px;color:#f7f7f7;font-size:12px;line-height:18px;margin:0px;}
+.signup h2 {line-height:38px;margin: 0 0 8px;text-align:center;}
+.form  {width:180px;background:none;height:20px;display: inline-block;margin: 0 19px 10px;}
+#email {float:left;width:120px;border:none;height:18px;line-height:16px;padding:1px 0;text-align:center;}
+#submit {background-color:#938ce8;color:#000;cursor:pointer;font-size:12px;height:20px;line-height:20px;width:60px;padding:0 0 2px;border:none;}
+footer{width: 920px;margin:0 auto;border-top:1px solid #282828;padding:18px 0 24px;text-align:center;}
+.footer-bottoms li{display:inline-block;border-left:1px solid #282828;line-height: 30px;}
+.footer-bottoms a{font-size: 11px;color: #656465;line-height: 30px;padding-left:5px;text-decoration: none;}
+.footer-bottoms a:hover{color:#b9315a;}
+.footer-bottoms li:first-child{border:none;padding: 0 5px;}
